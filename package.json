@@ -1,14 +1,14 @@
 {
-  "name": "queen_amdi",
-  "version": "3.0.1v",
+  "name": "T_Rex",
+  "version": "V 2.0",
   "description": "Queen Amdi Bot project - a Whatsapp userbot helping to improve your Whatsapp experience.",
-  "main": "./QueenAmdi/bot.js",
+  "main": "./ruka/bot.js",
   "scripts": {
     "start": "supervisor -s bot.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/BlackAmda/QueenAmdi.git"
+    "url": "git+https://github.com/DARKCRIME1/ruka.git"
   },
   "keywords": [
     "whatsapp"
