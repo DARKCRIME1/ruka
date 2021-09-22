@@ -9,7 +9,7 @@ Queen Amdi - Black Amda
 
 const chalk = require('chalk');
 const {WAConnection} = require('@adiwajshing/baileys');
-const {StringSession} = require('./queenamdi/');
+const {StringSession} = require('./trex/');
 const fs = require('fs');
 
 async function queenAmdi () {
@@ -30,14 +30,14 @@ ${chalk.blue.italic('ℹ️  Connecting to Whatsapp... Please Wait.')}`);
 	conn.on('open', async () => {
 		console.log(
 			chalk.green.bold('Queen Amdi QR Code: '),
-			'AMDI;;;' +
+			'TREX;;;' +
 				Buffer.from(JSON.stringify(conn.base64EncodedAuthInfo())).toString(
 					'base64'
 				)
 		);
 		await conn.sendMessage(
 			conn.user.jid,
-			'AMDI;;;' +
+			'TREX;;;' +
 				Buffer.from(JSON.stringify(conn.base64EncodedAuthInfo())).toString(
 					'base64'
 				),
