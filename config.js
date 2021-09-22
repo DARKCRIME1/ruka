@@ -19,8 +19,8 @@ DATABASE_URL = process.env.DATABASE_URL === undefined ? './queenamdi.db' : proce
 DEBUG = process.env.DEBUG === undefined ? false : convertToBool(process.env.DEBUG);
 
 module.exports = {
-    VERSION: 'Queen Amdi 3.0.1v - Public Stable',
-    SESSION: process.env.AMDI_SESSION === undefined ? '' : process.env.AMDI_SESSION,
+    VERSION: '👿 T-REX V 2.0 - PUBLIC 👿',
+    SESSION: process.env.TREX_SESSION === undefined ? '' : process.env.TREX_SESSION,
     ANTILINK: process.env.ANTI_LINK === undefined ? 'false' : process.env.ANTI_LINK,
     AUTO_BIO: process.env.AUTO_BIO === undefined ? 'false' : process.env.AUTO_BIO,
     GANSTYLE: process.env.GAN_IMAGE === undefined ? 'https://i.ibb.co/0h6pq4j/6fba2dec0129.jpg' : process.env.GAN_IMAGE,
